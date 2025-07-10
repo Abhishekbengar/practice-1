@@ -1,0 +1,17 @@
+//area of square 
+
+import java.io.*;
+import java.util.*;
+class areasquare
+{
+public static void main(String []args)
+{
+int area,side;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the area");
+side=sc.nextInt();
+
+area=side*side;
+System.out.println("area of square:"+area);
+}
+}
